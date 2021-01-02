@@ -92,3 +92,56 @@ font-weight: normal;
     color: #628F19;
     text-align: justify;
 }
+.sidebar{
+    height: 500px;
+    width: 400px;
+border: 1px solid #BAF46F;
+border-radius: 20px;
+padding: 10px 30px;
+}
+.sidebar h3{
+    color: #B314DB;
+    font-size: 30px;
+}
+.sidebar ul{
+    padding-top: 8px;
+}
+#lsidebar ul li{
+    padding: 4px 0 4px 10px;
+    list-style-image: url(images/arrow.png);
+}
+#rsidebar ul li{
+    padding: 17px 0 17px 70px;
+   background: url(images/tick.png) no-repeat left;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #5d12e7;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+.sidebar ul li a:hover, -sidebar ul li a.active{
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 20px;
+    font-weight: bold;
+}
+#lsidebar{
+    float:left;
+}
+#rsidebar{
+    float: right;
+}
+.footer{
+    height: 60px;
+    background: linear-gradient(#000000, #D5D533);
+    background: -webkit-linear-gradient(#F6F390, #D5D533);
+    background: -o-linear-gradient(#F6F390, #D5D533);
+    background: -moz-linear-gradient(#F6F390, #D5D533;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
